@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com.caelum.vraptor</groupId>
-	<artifactId>ebean</artifactId>
+	<artifactId>vraptor-ebean</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ebean</name>
+	<name>vraptor-ebean</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -21,6 +21,26 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.avaje.ebeanorm</groupId>
+			<artifactId>avaje-ebeanorm</artifactId>
+			<version>4.1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>br.com.caelum</groupId>
+			<artifactId>vraptor</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.enterprise</groupId>
+			<artifactId>cdi-api</artifactId>
+			<version>1.2</version>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
@@ -40,12 +60,23 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.5</version>
+		</dependency>
+		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>${h2.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<scm>
+		<url>http://github.com/dtelaroli/vraptor-ebean</url>
+		<connection>scm:git:git://github.com/dtelaroli/vraptor-ebean</connection>
+		<developerConnection>scm:git:git@github.com:dtelaroli/vraptor-ebean.git</developerConnection>
+	</scm>
 	
 	<build>
 		<plugins>
