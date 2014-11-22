@@ -1,4 +1,4 @@
-package br.com.caelum.vraptor.hibernate;
+package br.com.caelum.vraptor.ebean;
 
 import br.com.caelum.vraptor.interceptor.SimpleInterceptorStack;
 

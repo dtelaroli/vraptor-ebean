@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.caelum.vraptor.hibernate;
+package br.com.caelum.vraptor.ebean;
 
 import javax.decorator.Decorator;
 import javax.decorator.Delegate;

@@ -12,8 +12,6 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import br.com.caelum.vraptor.controller.ControllerMethod;
-import br.com.caelum.vraptor.hibernate.EbeanInterceptor;
-import br.com.caelum.vraptor.hibernate.TransactionDecorator;
 import br.com.caelum.vraptor.interceptor.SimpleInterceptorStack;
 
 public class TransactionDecoratorTest {
