@@ -4,11 +4,11 @@
 
 	<groupId>br.com.caelum.vraptor</groupId>
 	<artifactId>vraptor-ebean</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>4.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>vraptor-ebean</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/dtelaroli/vraptor-ebean</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -1,8 +1,8 @@
-# VRaptor Hibernate Plugin
+# VRaptor Ebean Plugin
 
-![Build status](https://secure.travis-ci.org/caelum/vraptor-hibernate.png)
+![Build status](https://secure.travis-ci.org/dtelaroli/vraptor-ebean.png)
 
-VRaptor Hibernate Plugin provides support to use with Hibernate 4.
+VRaptor Ebean Plugin provides support to use with Ebean 4.
 
 # How to install?
 
@@ -12,7 +12,7 @@ downloads area or in Maven Repository:
 
 	<dependency>
 	  <groupId>br.com.caelum.vraptor</groupId>
-	  <artifactId>vraptor-hibernate</artifactId>
+	  <artifactId>vraptor-ebean</artifactId>
 	  <version>4.0.0.Final</version> <!-- or the latest version -->
 	</dependency>
 
@@ -28,6 +28,6 @@ To do that you just need to add the follow content into your project's `beans.xm
 
 ```xml
 <decorators>
-    <class>br.com.caelum.vraptor.hibernate.TransactionDecorator</class>
+    <class>br.com.caelum.vraptor.ebean.TransactionDecorator</class>
 </decorators>
 ```
